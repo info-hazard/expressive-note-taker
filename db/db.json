@@ -1,3 +1,19 @@
 {
-    "notesArray": []
+  "notesArray": [
+    {
+      "title": "Hello",
+      "text": "test\n",
+      "id": "0"
+    },
+    {
+      "title": "Hello2",
+      "text": "Test",
+      "id": "1"
+    },
+    {
+      "title": "Why hello There",
+      "text": "Ok",
+      "id": "2"
+    }
+  ]
 }
