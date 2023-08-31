@@ -8,3 +8,15 @@ const htmlRoutes = require('./routes/htmlRoutes');
 // middleware for parsing different data types
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+
+// public folder host
+app.use(express.static('public'));
+
+// routes
+app.use('/api', apiRoutes);
+app.use('/', htmlRoutes);
+
+//PORT listener
+app.listen(PORT, () => {
+  console.log(`API server now on port ${PORT}!`);
+});
