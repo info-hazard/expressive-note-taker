@@ -18,5 +18,5 @@ app.use('/', htmlRoutes);
 
 // PORT listener
 app.listen(PORT, () => {
-  console.log(`API server now on port ${PORT}!`);
+  console.log(`Server now running on port ${PORT}!`);
 });
